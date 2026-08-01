@@ -1,8 +1,28 @@
 aid: rebellions
 name: Rebellions
-description: 'Rebellions is a company surfaced as a portfolio company of kindred-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: tools-infrastructure. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Rebellions is an AI infrastructure company that designs energy-efficient AI
+  inference hardware (NPUs) and the software stack to deploy large language and
+  multimodal models on it at scale. Its products include the Rebel100 inference
+  chip (FP8, HBM3e), the ATOM-Max Server and POD, and RebelServer. The RBLN SDK
+  compiles and serves HuggingFace Transformers/Diffusers, PyTorch, and
+  TensorFlow models on RBLN accelerators, with integrations for vLLM, NVIDIA
+  Triton, TorchServe, and Kubernetes. Rebellions does not expose a public
+  REST/HTTP API; developers integrate through first-party Python SDKs
+  (optimum-rbln, vllm-rbln), the RBLN compiler and driver, and the model zoo.
+  Backed by Kindred Ventures and partnered with Samsung, Arm, IBM, and AWS.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://rebellions.ai/wp-content/uploads/2023/11/rebellions-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/rebellions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Tools Infrastructure
+- Artificial Intelligence
+- AI Inference
+- NPU
+- Hardware
+- Machine Learning
+- SDK
+- Semiconductors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,30 @@ maintainers:
 common:
 - type: Website
   url: https://rebellions.ai/
+- type: DeveloperPortal
+  url: https://rebellions.ai/developers/
+- type: Documentation
+  url: https://docs.rbln.ai/
+- type: GettingStarted
+  url: https://docs.rbln.ai/latest/getting_started/installation_guide.html
+- type: Blog
+  url: https://rebellions.ai/category/blogs/
+- type: Support
+  url: https://discuss.rebellions.ai/
+- type: GitHubOrganization
+  url: https://github.com/rebellions-sw
+- type: Packages
+  url: packages/rebellions-packages.yml
+- type: SDKs
+  url: packages/rebellions-packages.yml
+- type: ChangeLog
+  url: changelog/rebellions-changelog.yml
+- type: LLMsTxt
+  url: llms/rebellions-llms.txt
+- type: DomainSecurity
+  url: security/rebellions-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/ + https://github.com/rbln-sw
+packages:
+  - language: python
+    registry: pypi
+    name: optimum-rbln
+    url: https://pypi.org/project/optimum-rbln/
+    repository: https://github.com/rbln-sw/optimum-rbln
+    install: pip install optimum-rbln
+    version: 0.11.0.post1
+    official: true
+    description: >-
+      Interface between the HuggingFace Transformers and Diffusers libraries and
+      RBLN accelerators; enables model loading and inference on single- and
+      multi-RBLN-device settings for different downstream tasks.
+  - language: python
+    registry: pypi
+    name: vllm-rbln
+    url: https://pypi.org/project/vllm-rbln/
+    repository: https://github.com/rbln-sw/vllm-rbln
+    install: pip install vllm-rbln
+    version: 0.11.0
+    official: true
+    description: vLLM plugin for RBLN NPU (LLM serving on Rebellions accelerators).
+notes: >-
+  The RBLN Compiler and RBLN Driver are distributed through Rebellions' own
+  package index (docs.rbln.ai getting-started/installation), not a public
+  registry, so they are not listed with public registry URLs here.

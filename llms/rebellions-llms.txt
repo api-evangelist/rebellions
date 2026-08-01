@@ -1,0 +1,29 @@
+# Rebellions
+
+> Rebellions is an AI infrastructure company building energy-efficient AI inference hardware (NPUs) and the software stack to deploy large language and multimodal models on it at scale. Products include the Rebel100 inference chip, ATOM-Max Server/POD, and RebelServer. The RBLN SDK compiles and serves HuggingFace, PyTorch, and TensorFlow models on RBLN accelerators. Rebellions is not a REST/HTTP API provider; developers integrate via Python SDKs and serving frameworks (vLLM, Triton, TorchServe, Kubernetes).
+
+## Developer
+
+- [Developer portal](https://rebellions.ai/developers/): SDK, model zoo, and developer resources.
+- [SDK documentation](https://docs.rbln.ai/): RBLN SDK docs (compiler, optimum-rbln, vLLM RBLN, driver).
+- [Installation guide](https://docs.rbln.ai/latest/getting_started/installation_guide.html): Getting started with the RBLN SDK.
+- [Release notes](https://docs.rbln.ai/latest/supports/release_note.html): Dated SDK changelog; current version 0.11.0.
+- [Model Zoo](https://rebellions.ai/developers/model-zoo/): Reference models optimized for RBLN.
+- [Dev forum](https://discuss.rebellions.ai/): Community support and discussion.
+
+## Packages
+
+- [optimum-rbln (PyPI)](https://pypi.org/project/optimum-rbln/): HuggingFace Transformers/Diffusers interface for RBLN accelerators. `pip install optimum-rbln`
+- [vllm-rbln (PyPI)](https://pypi.org/project/vllm-rbln/): vLLM plugin for RBLN NPU. `pip install vllm-rbln`
+
+## Source
+
+- [GitHub: rebellions-sw](https://github.com/rebellions-sw): Rebellions software org.
+- [rbln-model-zoo](https://github.com/rebellions-sw/rbln-model-zoo): HuggingFace/PyTorch/TensorFlow model examples for RBLN.
+- [GitHub: rbln-sw](https://github.com/rbln-sw): SDK package repositories (optimum-rbln, vllm-rbln).
+
+## Company
+
+- [Website](https://rebellions.ai/): Company site and product overview.
+- [Blog](https://rebellions.ai/category/blogs/): Engineering and product blog.
+- [Contact / support](https://rebellions.ai/contact/): client_support@rebellions.ai

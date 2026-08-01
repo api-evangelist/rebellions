@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.rbln.ai/latest/supports/release_note.html
+scheme: calendar-and-semver
+current_version: '0.11.0'
+components:
+  - name: RBLN Compiler
+    example_version: 0.11.0.post1
+  - name: Optimum RBLN
+    example_version: 0.11.0.post1
+  - name: vLLM RBLN
+    example_version: 0.11.0
+  - name: RBLN Driver
+    example_version: 3.2.2
+  - name: PyTorch RBLN
+    example_version: 0.2.2
+entries:
+  - version: 2026.06.26.0
+    date: '2026-06-26'
+    highlights:
+      - First release to support Transformers v5 (requires model recompilation).
+  - version: 2026.05.29.0
+    date: '2026-05-29'
+    highlights:
+      - Introduced rbln-vs hardware diagnostics tool; enhanced driver stability.
+  - version: 2026.04.30.0
+    date: '2026-04-30'
+    highlights:
+      - Added RSD support for vision transformers and Qwen3-VL disaggregated encoder.
+  - version: 2026.03.27.0
+    date: '2026-03-27'
+    highlights:
+      - Public release of PyTorch RBLN; K8s DRA Driver introduction.
+  - version: 2026.02.27.0
+    date: '2026-02-27'
+    highlights:
+      - Policy-driven cluster orchestration for NPU driver upgrades.
+  - version: 2026.01.30.0
+    date: '2026-01-30'
+    highlights:
+      - Major driver refactor into modular components; Mixture-of-Experts support.
