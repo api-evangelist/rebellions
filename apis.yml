@@ -11,6 +11,17 @@ description: >-
   REST/HTTP API; developers integrate through first-party Python SDKs
   (optimum-rbln, vllm-rbln), the RBLN compiler and driver, and the model zoo.
   Backed by Kindred Ventures and partnered with Samsung, Arm, IBM, and AWS.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
