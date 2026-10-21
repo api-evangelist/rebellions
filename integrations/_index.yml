@@ -40,3 +40,32 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: rebellions-open-compute-project-marketplace
+  label: Open Compute Project marketplace
+  partner_name: Open Compute Project marketplace
+  category: data-center hardware marketplace listing
+  type: register
+  channel: standard-directory
+  evidence: https://www.opencompute.org/marketplace/it-infrastructure/rebel-quad-ai-accelerator-ai-soc/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Open Compute Project marketplace (opencompute.org/products; /wp-json/wp/v2/marketplace + /companies)
+    standard: Open Compute Project
+    spec_file: null
+    role: ocp-marketplace-listing
+    registered_name: Rebellions
+    register_id: https://www.opencompute.org/members/rebellions/
+    matched_domain: rebellions.ai
+    matched_by: domain
+    listings: 1
+    recognised_listings: 0
+    products_sample:
+    - REBEL-Quad AI accelerator / AI SoC
+    signal_note: certified_products = one entry per product type (OCP recognition + most specific marketplace segment)
+      among OCP-recognised listings; unrecognised listings are listing alone (participation). The REST data marks
+      no listing archived, so lapsed is false. Listing counts are context, never counted
+    detected_by: sweep-semiconductor-consortia.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null
